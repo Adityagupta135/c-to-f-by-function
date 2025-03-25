@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+float fah(float c);
+
+
+int main()
+{
+    float c;
+
+    printf("enter c");
+
+    scanf("%f",&c);
+
+    printf("%f", fah(c));
+
+    return 0;
+}
+
+
+float fah(float c)
+{
+    return 9/5*c+32;
+}
