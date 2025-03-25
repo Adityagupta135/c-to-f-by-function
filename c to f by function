@@ -19,5 +19,5 @@ int main()
 
 float fah(float c)
 {
-    return 9/5*c+32;
+    return 9.0/5*c+32;
 }
